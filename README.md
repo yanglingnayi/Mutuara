@@ -1,6 +1,6 @@
 # Mutuara — 更新分发与公告站点
 
-面向 App 的纯静态更新分发站点：GitHub 推送触发 Cloudflare Pages 部署，Android 安装包托管在 GitHub Releases，iOS 只做 App Store / TestFlight 跳转。无后端、无数据库、无构建步骤。
+面向 App 的纯静态更新分发站点：GitHub 推送触发 Cloudflare Pages 部署，Android 安装包托管在 GitHub Releases，iOS 只做 App Store / TestFlight 跳转。无后端、无数据库、无构建步骤
 
 ## 技术栈
 
