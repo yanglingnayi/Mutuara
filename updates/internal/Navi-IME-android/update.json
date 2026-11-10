@@ -17,7 +17,7 @@
     {
       "arch": "universal",
       "variant": "default",
-      "download_url": "https://mutuara.pages.dev/updates/internal/Navi-IME-android/app-debug.apk",
+      "download_url": "https://github.com/yanglingnayi/Mutuara/releases/download/v0.21.2-internal/app-debug.apk",
       "size": 67931894,
       "checksum": "sha256:0f1985a8376d83f2cbcc236f687d76637ccca2c12dc1e49b22a857a5a26c2644"
     }
