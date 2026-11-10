@@ -1,0 +1,31 @@
+# ---- 系统与编辑器 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+
+# ---- 依赖与构建产物 ----
+node_modules/
+dist/
+.env
+.env.*
+
+# ---- 本地调试临时产物 ----
+# 注意：_headers 与 _redirects 是 Cloudflare Pages 的正式配置，必须提交，
+# 因此这里只忽略带扩展名的调试文件。
+/_*.png
+/_*.jpg
+/_*.jpeg
+/_*.gif
+/_*.webp
+/_*.txt
+/_*.log
+/_*.err
+/_*.html
+
+# ---- 文档：内部笔记不上传，仅保留根目录 README ----
+/docs/
+*.md
+!/README.md

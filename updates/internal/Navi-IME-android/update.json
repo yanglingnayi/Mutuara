@@ -1,0 +1,20 @@
+{
+  "app": "Navi-IME-android",
+  "platform": "android",
+  "channel": "internal",
+  "version_code": 0,
+  "version_name": "0.0.0",
+  "published_at": "2026-11-10T00:00:00Z",
+  "changelog": [
+    { "type": "feature", "text": "内测包占位，等待首次构建" }
+  ],
+  "packages": [
+    {
+      "arch": "universal",
+      "variant": "internal",
+      "download_url": "/updates/internal/Navi-IME-android/Navi-IME-android.apk",
+      "size": 0,
+      "checksum": ""
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-CN" class="no-js">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>下载 Mutuara — Android APK / iOS</title>
+<meta name="description" content="下载最新版 Mutuara：Android 直接获取 APK，iOS 跳转 App Store 或 TestFlight。" />
+<meta name="theme-color" content="#04060a" />
+<link rel="canonical" href="https://mutuara.example.com/download.html" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="下载 Mutuara" />
+<meta property="og:description" content="Android APK 与 iOS App Store / TestFlight 下载入口。" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="/assets/css/style.css" />
+<script src="/assets/js/head.js"></script>
+</head>
+<body>
+<div class="crt" aria-hidden="true"></div>
+
+<header class="titlebar">
+  <div class="tb-left">
+    <span class="dot" aria-hidden="true"></span>
+    <span class="tb-title">MUTUARA OS</span>
+  </div>
+  <nav class="tabs" aria-label="主导航">
+    <a class="tab" href="/">~/home</a>
+    <a class="tab" href="/download.html">~/download</a>
+    <a class="tab" href="/announcements.html">~/announcements</a>
+  </nav>
+  <button class="tb-theme" id="theme-toggle" type="button" aria-pressed="false" aria-label="切换到亮色主题">theme <b id="theme-label">dark</b></button>
+  <span class="tb-right" id="tb-version">v1.3.0</span>
+</header>
+
+<main class="screen">
+  <section class="pane" id="dl-pane">
+    <div class="pane-head">
+      <span class="prompt" aria-hidden="true">$</span>
+      <span class="cmd">library --list</span>
+      <span class="pane-status" id="lib-status">loading…</span>
+    </div>
+
+    <p class="pane-note">展开条目查看版本与安装包。所有安装包托管于 GitHub Releases，清单读取自 /updates/。</p>
+
+    <div class="tree" id="tree" role="tree" aria-label="软件库"></div>
+
+    <div class="dl-detail" id="dl-detail" hidden></div>
+  </section>
+
+  <footer class="foot">
+    <span>Mutuara OS</span>
+    <span>·</span>
+    <span>static build</span>
+    <span>·</span>
+    <span>hosted on cloudflare pages</span>
+  </footer>
+</main>
+
+<script src="/assets/js/main.js"></script>
+</body>
+</html>

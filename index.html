@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="zh-CN" class="no-js">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Mutuara — 更新分发与公告</title>
+<meta name="description" content="Mutuara 官方站点：下载最新版 App（Android APK / iOS App Store / TestFlight），查看版本更新与公告。" />
+<meta name="theme-color" content="#04060a" />
+<link rel="canonical" href="https://mutuara.example.com/" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Mutuara — 更新分发与公告" />
+<meta property="og:description" content="下载最新版 Mutuara，查看版本更新与公告。" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="/assets/css/style.css" />
+<script src="/assets/js/head.js"></script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Mutuara","operatingSystem":"Android, iOS","applicationCategory":"Utilities","offers":{"@type":"Offer","price":"0","priceCurrency":"CNY"}}
+</script>
+</head>
+<body>
+<div class="crt" aria-hidden="true"></div>
+
+<header class="titlebar">
+  <div class="tb-left">
+    <span class="dot" aria-hidden="true"></span>
+    <span class="tb-title">MUTUARA OS</span>
+  </div>
+  <nav class="tabs" aria-label="主导航">
+    <a class="tab" href="/">~/home</a>
+    <a class="tab" href="/download.html">~/download</a>
+    <a class="tab" href="/announcements.html">~/announcements</a>
+  </nav>
+  <button class="tb-theme" id="theme-toggle" type="button" aria-pressed="false" aria-label="切换到亮色主题">theme <b id="theme-label">dark</b></button>
+  <span class="tb-right" id="tb-version">v1.3.0</span>
+</header>
+
+<main class="screen">
+  <section class="boot-line" aria-label="系统启动">
+    <span class="prompt" aria-hidden="true">guest@mutuara:~$</span>
+    <span id="boot-cmd"></span><span class="caret" id="boot-caret" aria-hidden="true"></span>
+  </section>
+  <div class="boot-out" id="boot-out" aria-live="polite">
+    <div class="boot-line" id="boot-l1"></div>
+    <div class="boot-line" id="boot-l2"></div>
+  </div>
+
+  <section class="brand reveal">
+    <div class="brand-lockup">
+      <pre class="brand-art" id="brand-art" aria-label="Mutuara"></pre>
+      <span class="brand-ver" id="brand-ver">v1.3.0 · build 130</span>
+    </div>
+    <p class="brand-sub">A terminal-native update channel. <span class="hl">Android</span> 与 <span class="hl">iOS</span> 双端分发，公测 / 内测双通道。</p>
+  </section>
+
+  <section class="menu reveal" aria-label="快捷入口">
+    <a class="menu-item" href="/download.html">
+      <span class="mi-key">DOWNLOAD</span>
+      <span class="mi-desc">软件下载 · Android / iOS</span>
+    </a>
+    <a class="menu-item" href="/announcements.html">
+      <span class="mi-key">NEWS</span>
+      <span class="mi-desc">更新公告 · changelog</span>
+    </a>
+  </section>
+
+  <section class="console reveal" aria-label="命令终端">
+    <div class="console-log" id="console-log" aria-live="polite"></div>
+    <div class="console-input">
+      <span class="prompt" aria-hidden="true">guest@mutuara:~$</span>
+      <span class="console-caret caret" id="console-caret" aria-hidden="true"></span>
+      <input id="console-field" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="输入 help 查看命令" aria-label="命令输入" />
+    </div>
+  </section>
+
+  <footer class="foot">
+    <span>Mutuara OS</span>
+    <span>·</span>
+    <span>static build</span>
+    <span>·</span>
+    <span>hosted on cloudflare pages</span>
+  </footer>
+</main>
+
+<script src="/assets/js/main.js"></script>
+</body>
+</html>

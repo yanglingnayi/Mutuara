@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN" class="no-js">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>更新公告 — Mutuara</title>
+<meta name="description" content="Mutuara 版本更新公告与变更记录，覆盖 Android 与 iOS 各通道。" />
+<meta name="theme-color" content="#04060a" />
+<link rel="canonical" href="https://mutuara.example.com/announcements.html" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="更新公告 — Mutuara" />
+<meta property="og:description" content="Mutuara 版本更新公告与变更记录。" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="/assets/css/style.css" />
+<script src="/assets/js/head.js"></script>
+</head>
+<body>
+<div class="crt" aria-hidden="true"></div>
+
+<header class="titlebar">
+  <div class="tb-left">
+    <span class="dot" aria-hidden="true"></span>
+    <span class="tb-title">MUTUARA OS</span>
+  </div>
+  <nav class="tabs" aria-label="主导航">
+    <a class="tab" href="/">~/home</a>
+    <a class="tab" href="/download.html">~/download</a>
+    <a class="tab" href="/announcements.html">~/announcements</a>
+  </nav>
+  <button class="tb-theme" id="theme-toggle" type="button" aria-pressed="false" aria-label="切换到亮色主题">theme <b id="theme-label">dark</b></button>
+  <span class="tb-right" id="tb-version">v1.3.0</span>
+</header>
+
+<main class="screen">
+  <section class="pane">
+    <div class="pane-head">
+      <span class="prompt" aria-hidden="true">$</span>
+      <span class="cmd">announcements --list</span>
+    </div>
+    <div class="ann-list" id="ann-list">
+      <p class="log-line dim">loading announcements ...</p>
+    </div>
+  </section>
+
+  <footer class="foot">
+    <span>Mutuara OS</span>
+    <span>·</span>
+    <span>static build</span>
+    <span>·</span>
+    <span>hosted on cloudflare pages</span>
+  </footer>
+</main>
+
+<script src="/assets/js/main.js"></script>
+</body>
+</html>

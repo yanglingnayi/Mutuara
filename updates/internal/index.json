@@ -1,0 +1,29 @@
+{
+  "updated_at": "2026-11-10T00:00:00Z",
+  "apps": [
+    {
+      "id": "Navi-IME-android",
+      "name": "Navi-IME-android",
+      "tagline": "internal build · android",
+      "entries": [
+        {
+          "platform": "android",
+          "channel": "internal",
+          "manifest": "/updates/internal/Navi-IME-android/update.json"
+        }
+      ]
+    },
+    {
+      "id": "mutuara",
+      "name": "mutuara",
+      "tagline": "internal build · android",
+      "entries": [
+        {
+          "platform": "android",
+          "channel": "internal",
+          "manifest": "/updates/internal/mutuara/update.json"
+        }
+      ]
+    }
+  ]
+}

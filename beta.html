@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="zh-CN" class="no-js">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>内测通道 — Mutuara</title>
+<meta name="robots" content="noindex, nofollow" />
+<meta name="theme-color" content="#04060a" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="/assets/css/style.css" />
+<script src="/assets/js/head.js"></script>
+</head>
+<body>
+<div class="crt" aria-hidden="true"></div>
+
+<header class="titlebar">
+  <div class="tb-left">
+    <span class="dot" aria-hidden="true"></span>
+    <span class="tb-title">MUTUARA OS</span>
+  </div>
+  <nav class="tabs" aria-label="主导航">
+    <a class="tab" href="/">~/home</a>
+    <a class="tab" href="/download.html">~/download</a>
+    <a class="tab" href="/announcements.html">~/announcements</a>
+  </nav>
+  <button class="tb-theme" id="theme-toggle" type="button" aria-pressed="false" aria-label="切换到亮色主题">theme <b id="theme-label">dark</b></button>
+  <span class="tb-right" id="tb-version">internal</span>
+</header>
+
+<main class="screen">
+  <section class="gate" id="gate">
+    <div class="pane">
+      <div class="pane-head">
+        <span class="prompt" aria-hidden="true">$</span>
+        <span class="cmd">internal --auth</span>
+      </div>
+      <p class="pane-note">此通道仅供内部测试使用，请输入访问口令。</p>
+      <form class="gate-form" id="gate-form" autocomplete="off">
+        <div class="field">
+          <span class="prompt" aria-hidden="true">key&gt;</span>
+          <input id="gate-input" type="password" placeholder="访问口令" aria-label="访问口令" />
+        </div>
+        <button class="btn" type="submit">VERIFY</button>
+        <p class="gate-msg" id="gate-msg" role="alert"></p>
+      </form>
+    </div>
+  </section>
+
+  <section id="beta-panel" hidden>
+    <div class="pane">
+      <div class="pane-head">
+        <span class="prompt" aria-hidden="true">$</span>
+        <span class="cmd">internal --channel</span>
+        <span class="pane-status">access granted</span>
+      </div>
+      <div id="beta-detail"></div>
+    </div>
+  </section>
+
+  <footer class="foot">
+    <span>Mutuara OS</span>
+    <span>·</span>
+    <span>internal channel</span>
+  </footer>
+</main>
+
+<script src="/assets/js/main.js"></script>
+</body>
+</html>

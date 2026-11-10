@@ -1,0 +1,23 @@
+{
+  "updated_at": "2026-11-10T00:00:00Z",
+  "apps": [
+    {
+      "id": "mutuara",
+      "name": "mutuara",
+      "tagline": "terminal-native update channel",
+      "description": "A terminal-native update channel.",
+      "entries": [
+        {
+          "platform": "android",
+          "channel": "public",
+          "manifest": "/updates/public/mutuara/android.json"
+        },
+        {
+          "platform": "ios",
+          "channel": "public",
+          "manifest": "/updates/public/mutuara/ios.json"
+        }
+      ]
+    }
+  ]
+}
