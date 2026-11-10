@@ -3,4 +3,4 @@ Allow: /
 Disallow: /beta.html
 Disallow: /beta
 
-Sitemap: https://mutuara.example.com/sitemap.xml
+Sitemap: https://mutuara.noadiah.com/sitemap.xml
