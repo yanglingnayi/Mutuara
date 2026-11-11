@@ -28,4 +28,7 @@ dist/
 # ---- 文档：内部笔记不上传，仅保留根目录 README ----
 /docs/
 *.md
-!/README.md*.apk
+!/README.md
+
+# ---- 安装包不进仓库：APK 走 GitHub Release，站点只托管清单 ----
+*.apk
