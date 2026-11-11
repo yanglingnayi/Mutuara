@@ -1,33 +1,41 @@
 {
   "platform": "android",
-  "version_code": 2104,
-  "version_name": "0.21.4",
+  "version_code": 2105,
+  "version_name": "0.21.5",
   "changelog": [
     {
       "type": "feature",
-      "text": "錢拼 yu/yun/yuik 跟喺 n、l 以外聲母後面可省略 y（syu→su、shyun→shun、shyuik→shuik）"
+      "text": "符號頁新增顏文字鍵，354 個顏文字可喺鍵盤直接揀"
     },
     {
       "type": "feature",
-      "text": "更新下載改為分段續傳，可睇進度、速度同剩餘時間"
+      "text": "設定「輸入」區新增「撳牢 Enter 強制換行」開關"
     },
     {
       "type": "fix",
-      "text": "鍵盤收起或離開試打頁時即刻寫入未存檔嘅選詞記憶"
+      "text": "修復展開候選面板（下拉選詞）崩潰"
     },
     {
       "type": "improve",
-      "text": "候選排序對齊 iOS：2–4 字前綴、三音節以上由長到短、長句變體去重"
+      "text": "候選橫列只保留完整可見嘅候選，顯示唔全嘅移入展開面板"
+    },
+    {
+      "type": "improve",
+      "text": "按住候選列或慣性滑動期間暫緩刷新候選，唔會再中途跳字"
+    },
+    {
+      "type": "improve",
+      "text": "數字頁 #+= 同顏文字鍵改用 iOS 同款圖示，123 標籤亦對齊 iOS"
     }
   ],
-  "published_at": "2026-11-11T19:49:08Z",
+  "published_at": "2026-11-11T22:03:49Z",
   "packages": [
     {
       "arch": "universal",
       "variant": "default",
-      "download_url": "https://github.com/yanglingnayi/Mutuara/releases/download/v0.21.4-internal/mutuara-v0.21.4-debug.apk",
-      "size": 67674558,
-      "checksum": "sha256:c25623dd677a6ff97fc0ec8e9c8cfd0b44e5cc26f871427817e992fb78ad5830"
+      "download_url": "https://github.com/yanglingnayi/Mutuara/releases/download/v0.21.5-internal/mutuara-v0.21.5-debug.apk",
+      "size": 67711265,
+      "checksum": "sha256:c2153cf187987861bde3e2974a4b4e8005fac582a0502cb036a0f5270b82ec32"
     }
   ]
 }
