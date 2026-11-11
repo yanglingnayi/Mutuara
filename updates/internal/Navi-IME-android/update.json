@@ -24,12 +24,12 @@
       "text": "修正內測清單版本號與安裝包不一致，導致反覆提示更新"
     }
   ],
-  "published_at": "2026-11-11T15:41:34Z",
+  "published_at": "2026-11-11T15:55:55Z",
   "packages": [
     {
       "arch": "universal",
       "variant": "default",
-      "download_url": "https://github.com/yanglingnayi/Mutuara/releases/download/v0.21.3-internal/app-debug.apk",
+      "download_url": "https://github.com/yanglingnayi/Mutuara/releases/download/v0.21.3-internal/mutuara-v0.21.3-debug.apk",
       "size": 67625406,
       "checksum": "sha256:f2f1d442b3e7eaf5ce774cea93a291c1c1e7c12e3630fe1b332e72802226634b"
     }
