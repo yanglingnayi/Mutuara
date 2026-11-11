@@ -1,37 +1,33 @@
 {
   "platform": "android",
-  "version_code": 2103,
-  "version_name": "0.21.3",
+  "version_code": 2104,
+  "version_name": "0.21.4",
   "changelog": [
     {
       "type": "feature",
-      "text": "新增檢查更新功能，確認後自動下載並安裝新版本"
+      "text": "錢拼 yu/yun/yuik 跟喺 n、l 以外聲母後面可省略 y（syu→su、shyun→shun、shyuik→shuik）"
     },
     {
       "type": "feature",
-      "text": "下載過程可隨時取消，取消後自動清理臨時檔案"
+      "text": "更新下載改為分段續傳，可睇進度、速度同剩餘時間"
+    },
+    {
+      "type": "fix",
+      "text": "鍵盤收起或離開試打頁時即刻寫入未存檔嘅選詞記憶"
     },
     {
       "type": "improve",
-      "text": "設定頁版本資訊改為讀取實際版本號"
-    },
-    {
-      "type": "improve",
-      "text": "下載完成後校驗 SHA-256，避免安裝損壞的檔案"
-    },
-    {
-      "type": "improve",
-      "text": "修正內測清單版本號與安裝包不一致，導致反覆提示更新"
+      "text": "候選排序對齊 iOS：2–4 字前綴、三音節以上由長到短、長句變體去重"
     }
   ],
-  "published_at": "2026-11-11T15:55:55Z",
+  "published_at": "2026-11-11T19:49:08Z",
   "packages": [
     {
       "arch": "universal",
       "variant": "default",
-      "download_url": "https://github.com/yanglingnayi/Mutuara/releases/download/v0.21.3-internal/mutuara-v0.21.3-debug.apk",
-      "size": 67625406,
-      "checksum": "sha256:f2f1d442b3e7eaf5ce774cea93a291c1c1e7c12e3630fe1b332e72802226634b"
+      "download_url": "https://github.com/yanglingnayi/Mutuara/releases/download/v0.21.4-internal/mutuara-v0.21.4-debug.apk",
+      "size": 67674558,
+      "checksum": "sha256:c25623dd677a6ff97fc0ec8e9c8cfd0b44e5cc26f871427817e992fb78ad5830"
     }
   ]
 }
