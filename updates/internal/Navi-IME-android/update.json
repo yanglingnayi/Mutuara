@@ -1,7 +1,7 @@
 {
   "platform": "android",
-  "version_code": 2105,
-  "version_name": "0.21.5",
+  "version_code": 2106,
+  "version_name": "0.21.6",
   "changelog": [
     {
       "type": "feature",
@@ -10,6 +10,22 @@
     {
       "type": "feature",
       "text": "設定「輸入」區新增「撳牢 Enter 強制換行」開關"
+    },
+    {
+      "type": "fix",
+      "text": "修復打字時鍵盤高度跳動、成個界面上下跳嘅問題，推薦欄唔再隨組字收埋"
+    },
+    {
+      "type": "fix",
+      "text": "修復逗號打出嚟變咗英文逗號，而家一律上屏中文「，」「。」"
+    },
+    {
+      "type": "fix",
+      "text": "修復逗號鍵顯示成半角「,」，而家鍵帽同符號頁一律顯示全角「，」"
+    },
+    {
+      "type": "fix",
+      "text": "顏文字鍵改用同字母鍵一致嘅鍵帽底色"
     },
     {
       "type": "fix",
@@ -25,17 +41,21 @@
     },
     {
       "type": "improve",
-      "text": "數字頁 #+= 同顏文字鍵改用 iOS 同款圖示，123 標籤亦對齊 iOS"
+      "text": "數字頁 #+= 同顏文字鍵換咗新圖示，123 標籤一齊整理過"
+    },
+    {
+      "type": "improve",
+      "text": "打字記憶備份文案統一講 Google 雲端（Android Backup），唔再提其他平台个雲端服務"
     }
   ],
-  "published_at": "2026-11-11T22:03:49Z",
+  "published_at": "2026-11-12T18:07:58Z",
   "packages": [
     {
       "arch": "universal",
       "variant": "default",
-      "download_url": "https://github.com/yanglingnayi/Mutuara/releases/download/v0.21.5-internal/mutuara-v0.21.5-debug.apk",
-      "size": 67711265,
-      "checksum": "sha256:c2153cf187987861bde3e2974a4b4e8005fac582a0502cb036a0f5270b82ec32"
+      "download_url": "https://github.com/yanglingnayi/Mutuara/releases/download/v0.21.6-internal/mutuara-v0.21.6-debug.apk",
+      "size": 67711273,
+      "checksum": "sha256:d0cf35b13106890592d0e6a2b757240d76fbfa5858289e5189396059940fa043"
     }
   ]
 }
