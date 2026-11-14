@@ -1,37 +1,49 @@
 {
   "platform": "android",
-  "version_code": 2107,
-  "version_name": "0.21.7",
+  "version_code": 2108,
+  "version_name": "0.21.8",
   "changelog": [
     {
       "type": "fix",
-      "text": "修復鍵盤視窗被撐成整個螢幕咁高、鍵位「飛」到螢幕頂部嘅問題"
+      "text": "正字法預設切換（通用吳語／上海話大詞典）弗再卡牢，一記頭就切好"
     },
     {
       "type": "fix",
-      "text": "修復長按變體選單嘅疊層反向撐大鍵盤高度，而家疊層只覆蓋鍵盤本身"
+      "text": "上海話大詞典預設補齊「辣」系列（辣、辣海、辣蓋、辣辣、辣浪），切過去下拉選項全部對得上"
     },
     {
       "type": "fix",
-      "text": "修復試打頁同系統鍵盤疊埋一齊、兩個鍵盤同時彈出嘅問題"
+      "text": "窄屏手機上正字法預設个分段按鈕弗再擠成一團、字畀截脫"
+    },
+    {
+      "type": "fix",
+      "text": "覆蓋安裝新版本以後詞庫會自家重新解壓，弗會再用舊詞庫"
     },
     {
       "type": "improve",
-      "text": "試打頁唔再自帶虛擬鍵盤，直接撳輸入框用系統預設輸入法試打"
+      "text": "用户自家改任意一項選擇，正字法預設自動跳「自訂」，「自訂」弗再當成功選項"
     },
     {
       "type": "improve",
-      "text": "試打頁移除「內嵌鍵盤／系統鍵盤」切換同內嵌鍵盤實作，界面收歸一個輸入框"
+      "text": "正字法預設下頭个細字解釋拿脫，介面清爽一眼"
+    },
+    {
+      "type": "improve",
+      "text": "候選快取加仔上限，系統記憶體緊張辰光自家放脫，鍵盤弗容易畀殺脫"
+    },
+    {
+      "type": "improve",
+      "text": "成音節鼻音个排序、語義 Emoji 提示按新規則調整"
     }
   ],
-  "published_at": "2026-11-12T18:58:49Z",
+  "published_at": "2026-11-14T15:29:02Z",
   "packages": [
     {
       "arch": "universal",
       "variant": "default",
-      "download_url": "https://github.com/yanglingnayi/Mutuara/releases/download/v0.21.7-internal/mutuara-v0.21.7-debug.apk",
-      "size": 67694885,
-      "checksum": "sha256:0981901f7803068e046215a6175bc69ec41e95826f31a8c15a962cb327c5d3c9"
+      "download_url": "https://github.com/yanglingnayi/Mutuara/releases/download/v0.21.8-internal/mutuara-v0.21.8-debug.apk",
+      "size": 67711269,
+      "checksum": "sha256:97846e14b6f39f6d06d3fd20745aa2f30c92f3fa1f724fd1d49c054fef8e0170"
     }
   ]
 }
